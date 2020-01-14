@@ -22,9 +22,19 @@
         </div>
     </nav>
     <div class="container-fluid content">
-        <div class="breadcrumbs"></div>
+        <ul class="breadcrumbs list-unstyled d-flex justify-content-center">
+            <li class="pass"><i class="far fa-check-circle"></i>Choose number</li>
+            <li class="active"><i class="fas fa-clipboard-list"></i>Choose plan</li>
+            <li><i class="fas fa-users"></i>Add users</li>
+            <li><i class="fas fa-clipboard-list"></i>Checkout</li>
+        </ul>
         <div class="planSelect">
-            <h4>Select a plan for your trial<small>i</small></h4>
+            <h4>
+                Select a plan for your trial
+                <small>i
+                    <p>Something here...<br/>In two lines</p>
+                </small>
+            </h4>
             <div class="d-flex justify-content-center planList">
                 <div class="card planItem">
                     <div class="card-body nameBlock">
@@ -32,7 +42,7 @@
                     </div>
                     <div class="card-body descBlock">
                         <ul>
-                            <li>Up to 10  users</li>
+                            <li>Up to 10 users</li>
                             <li>Toll-free or local number</li>
                             <li>100 toll-free min/mo</li>
                             <li>4 people per video meeting</li>
@@ -49,65 +59,71 @@
                 </div>
                 <div class="card planItem">
                     <div class="card-body nameBlock">
-                        <h5 class="card-title">Essentials<pre>&trade;</pre></h5>
+                        <h5 class="card-title">Standard<pre>&trade;</pre></h5>
                     </div>
                     <div class="card-body descBlock">
                         <ul>
-                            <li>Up to 10  users</li>
+                            <li>Unlimited users</li>
                             <li>Toll-free or local number</li>
-                            <li>100 toll-free min/mo</li>
+                            <li>1000 toll-free min/mo</li>
                             <li>4 people per video meeting</li>
+                            <li>Unlimited internet fax</li>
                         </ul>
                     </div>
                     <div class="card-body d-flex flex-column justify-content-between priceBlock">
                         <span>Price after the trial</span>
-                        <span>from <b>$ 29,99</b>/user/month</span>
+                        <span>from <b>$ 34,99</b>/user/month</span>
                     </div>
                     <div class="card-body">
-                        <input type="radio" name="r" id="r1">
-                        <label for='r1'>Select this plan</label>
+                        <input type="radio" name="r" id="r2">
+                        <label for='r2'>Select this plan</label>
                     </div>
                 </div>
-                <div class="card planItem active">
+                <div class="card planItem active mostPopular">
                     <div class="card-body nameBlock">
                         <h5 class="card-title">Premium<pre>&trade;</pre></h5>
                     </div>
                     <div class="card-body descBlock">
                         <ul>
-                            <li>Up to 10  users</li>
+                            <li>Unlimited users</li>
                             <li>Toll-free or local number</li>
-                            <li>100 toll-free min/mo</li>
-                            <li>4 people per video meeting</li>
+                            <li>1500 toll-free min/mo</li>
+                            <li>50 people per video meeting</li>
+                            <li>Unlimited internet fax</li>
                         </ul>
                     </div>
                     <div class="card-body d-flex flex-column justify-content-between priceBlock">
                         <span>Price after the trial</span>
-                        <span>from <b>$ 29,99</b>/user/month</span>
+                        <span>from <b>$ 44,99</b>/user/month</span>
                     </div>
                     <div class="card-body">
-                        <input type="radio" name="r" id="r1">
-                        <label for='r1'>Select this plan</label>
+                        <input type="radio" name="r" id="r3" checked>
+                        <label for='r3'></label>
+                        <button class="popularButton">Continue</button>
                     </div>
                 </div>
                 <div class="card planItem">
                     <div class="card-body nameBlock">
-                        <h5 class="card-title">Essentials<pre>&trade;</pre></h5>
+                        <h5 class="card-title">Ultimate<pre>&trade;</pre></h5>
                     </div>
                     <div class="card-body descBlock">
                         <ul>
-                            <li>Up to 10  users</li>
+                            <li>Unlimited users</li>
                             <li>Toll-free or local number</li>
-                            <li>100 toll-free min/mo</li>
-                            <li>4 people per video meeting</li>
+                            <li>2500 toll-free min/mo</li>
+                            <li>75 people per video meeting</li>
+                            <li>Unlimited internet fax</li>
+                            <li>Automatic call recording</li>
+                            <li>Voicemail-to-text</li>
                         </ul>
                     </div>
                     <div class="card-body d-flex flex-column justify-content-between priceBlock">
                         <span>Price after the trial</span>
-                        <span>from <b>$ 29,99</b>/user/month</span>
+                        <span>from <b>$ 59,99</b>/user/month</span>
                     </div>
                     <div class="card-body">
-                        <input type="radio" name="r" id="r1">
-                        <label for='r1'>Select this plan</label>
+                        <input type="radio" name="r" id="r4">
+                        <label for='r4'>Select this plan</label>
                     </div>
                 </div>
             </div>
